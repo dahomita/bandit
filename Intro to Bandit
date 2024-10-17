@@ -1,0 +1,55 @@
+ssh: open a website
+
+bandit: a website club created for training
+
+bandit0 password: bandit0
+
+ls: list the file
+
+-a: all
+
+-la: combine of -l and -a
+
+pwd : What is your terminal’s current directory?
+ls [-l] [-a] [path] : List Files in [path]
+cd [path] : Change Directory to [path]
+man [command] : View command documentation in an interactive reader, up and down arrow to scroll. Q to exit.
+/home/kali/folder1/folder2 : Absolute File Path; this will never change.
+~/folder1/folder2 : Absolute File Path, relative to home directory. This shouldn’t change unless your home directory changes.
+folder1/folder2/ : Relative File Path, this depends on which folder you are in (see pwd).
+cat (concatenate): get the content of file
+
+Note: blue is folder, white is file
+
+cat -: giving option
+
+./: the current folder/directory
+../: the above folder/directory
+.: current content
+..: above content
+
+use ' ': for spaced files' names
+
+mkdir: make directory
+touch: create new file
+chmod: change permission
+
+nano: text editor (create and put text in it)
+Ex: nano test.txt
+
+mv: move
+Ex: mv test.txt LinPEAS
+
+rm: remove
+rm --help: help for command
+
+sudo: execute a command as another user
+=> every common require password
+
+Extra Commands
+find: help find the file using given information (Ex in level 6 -> 7 bandit)
+grep : help find the line with the pattern
+(Ex in level 7 -> 8 bandit)
+strings: print human-rteadable lines (Ex in level 9 -> 10)
+sort: sort in order; uniq: print unique line (Ex in level 8-> 9)
+|: combines commands in order (Ex in level 8=>10)
